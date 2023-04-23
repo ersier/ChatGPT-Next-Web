@@ -19,7 +19,7 @@ jobs:
       - name: Checkout target repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.WORKFLOW_TOKEN }}
+          token: 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
 
       # Step 2: run the sync action
       - name: Sync upstream changes
